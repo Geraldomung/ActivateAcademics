@@ -251,16 +251,6 @@ def voice_chat_mental_health():
 
     st.markdown('</div>', unsafe_allow_html=True)
 
-
-def community_engagement():
-    st.markdown('<div class="feature-container">', unsafe_allow_html=True)
-    
-    st.header("Community Engagement")
-
-    # ... (your code for this feature)
-
-    st.markdown('</div>', unsafe_allow_html=True)
-
 # Set page configuration
 st.set_page_config(
     page_title="Activate Academics",
@@ -275,7 +265,6 @@ features = {
     "Personalized Learning Assistant": personalized_learning_assistant,
     "Academic Advisor Integration": academic_advisor_integration,
     "Mental Health Support": voice_chat_mental_health,
-    "Community Engagement": community_engagement,
 }
 
 # Sidebar
