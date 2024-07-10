@@ -1,0 +1,10 @@
+streamlit
+transformers
+sentence-transformers
+pdfplumber
+huggingface_hub
+requests
+torch
+numpy
+pandas
+Pillow
